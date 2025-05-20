@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-IgorApplication<chatbot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.igor.chatbot.IgorApplication",
+            "projectName": "chatbot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
