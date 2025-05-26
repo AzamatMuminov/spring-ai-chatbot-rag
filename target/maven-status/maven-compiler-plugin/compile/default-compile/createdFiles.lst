@@ -1,5 +1,7 @@
-com\igor\chatbot\controller\ChatController.class
 com\igor\chatbot\IgorApplication.class
 com\igor\model\Document.class
-com\igor\model\FloatArrayVectorConverter.class
+com\igor\chatbot\service\DocumentService.class
 com\igor\repository\DocumentRepository.class
+com\igor\chatbot\controller\ChatController.class
+com\igor\chatbot\controller\DocumentController.class
+com\igor\model\FloatArrayVectorConverter.class

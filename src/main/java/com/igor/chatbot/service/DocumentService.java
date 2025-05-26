@@ -1,4 +1,4 @@
-package com.igor.service;
+package com.igor.chatbot.service;
 
 import com.igor.model.Document;
 import com.igor.repository.DocumentRepository;
@@ -24,7 +24,12 @@ public class DocumentService {
         List<Double> embedding = embeddingClient.embed(text);
         Document document = new Document();
         document.setContent(text);
-        document.setEmbedding(embedding);
+        // Convert List<Double> to float[]
+        float[] embeddingArray = new float[embedding.size()];
+        for (int i = 0; i < embedding.size(); i++) {
+            embeddingArray[i] = embedding.get(i).floatValue();
+        }
+        document.setEmbedding(embeddingArray);
         return documentRepository.save(document);
     }
 
