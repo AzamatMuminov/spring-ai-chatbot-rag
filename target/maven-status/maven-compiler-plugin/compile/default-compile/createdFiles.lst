@@ -1,1 +1,5 @@
+com\igor\chatbot\controller\ChatController.class
 com\igor\chatbot\IgorApplication.class
+com\igor\model\Document.class
+com\igor\model\FloatArrayVectorConverter.class
+com\igor\repository\DocumentRepository.class
