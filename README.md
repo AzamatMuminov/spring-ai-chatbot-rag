@@ -24,3 +24,18 @@ curl -X POST http://localhost:8080/api/chat \
   -H "Content-Type: application/json" \
   -d '{"message": "Hello"}'
 ```
+
+## Project Setup (In Progress)
+
+This project is a local RAG chatbot using Spring Boot, PostgreSQL (with pgvector), and Ollama.
+
+### ✅ Features so far:
+- Spring Boot base project
+- PostgreSQL + pgvector setup
+- Local embeddings via Ollama (`nomic-embed-text`)
+- Entity, Repository, Converter for `documents`
+
+### 🔧 Requirements
+- Java 17+
+- PostgreSQL with pgvector
+- Ollama installed and running locally
