@@ -1,4 +1,4 @@
-package com.igor.model;
+package com.igor.chatbot.model;
 
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;

@@ -1,7 +1,8 @@
 package com.igor.chatbot.service;
 
-import com.igor.model.Document;
-import com.igor.repository.DocumentRepository;
+import com.igor.chatbot.model.Document;
+import com.igor.chatbot.repository.DocumentRepository;
+
 import org.springframework.ai.embedding.EmbeddingClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.igor.chatbot.controller;
 
-import com.igor.model.Document;
+import com.igor.chatbot.model.Document;
 import com.igor.chatbot.service.DocumentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
